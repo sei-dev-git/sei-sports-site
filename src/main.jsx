@@ -1,10 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import Home from './pages/Home'
+function App() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-white text-black text-xl">
+      <h1>Welcome to SEI SPORTS!</h1>
+    </div>
+  );
+}
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>
-)
+export default App;
